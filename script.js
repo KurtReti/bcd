@@ -34,21 +34,87 @@ var x = setInterval(async function(){
         }, 3000)
 
         setTimeout(function(){
-            document.querySelector(".divided-wrapper").style.textDecoration = "line-through ";
-            document.querySelector(".divided-wrapper").style.textDecorationColor ="#00ff00";
+            document.querySelector(".divided-wrapper").style = "opacity: 0"
+
+        }, 3500)
+
+        setTimeout(function(){
+            document.querySelector(".divided-wrapper").style = "opacity: 1"
 
         }, 4000)
 
         setTimeout(function(){
-            document.querySelector(".divided-wrapper").style ="opacity: 0";
+            document.querySelector(".divided-wrapper").style = "opacity: 0"
+
+        }, 4500)
+
+        setTimeout(function(){
+            document.querySelector(".divided-wrapper").style = "opacity: 1"
 
         }, 5000)
 
         setTimeout(function(){
-            document.querySelector(".divided-wrapper").innerHTML = "DIVIDED"
-            document.querySelector(".divided-wrapper").style ="opacity: 1";
+            document.querySelector(".divided-wrapper").style = "opacity: 0"
+
+        }, 5500)
+
+        setTimeout(function(){
+            document.querySelector(".divided-wrapper").style = "opacity: 1"
+
+        }, 5750)
+
+        setTimeout(function(){
+            document.querySelector(".divided-wrapper").style = "opacity: 0"
 
         }, 6000)
+
+
+        setTimeout(function(){
+            document.querySelector(".divided-wrapper").style = "opacity: 1"
+
+        }, 6250)
+
+    
+    
+        setTimeout(function(){
+            document.querySelector(".divided-wrapper").style = "opacity: 1"
+
+        }, 6250)
+        
+        setTimeout(function(){
+            document.querySelector(".divided-wrapper").style = "opacity: 0"
+
+        }, 6500)
+        
+        setTimeout(function(){
+            document.querySelector(".divided-wrapper").style = "opacity: 1"
+
+        }, 6750)
+        
+        setTimeout(function(){
+            document.querySelector(".divided-wrapper").style = "opacity: 0"
+
+        }, 7000)
+
+
+         setTimeout(function(){
+            document.querySelector(".divided-wrapper").innerHTML = "DIVIDED"
+            document.querySelector(".divided-wrapper").style = "opacity: 1"
+
+        }, 9000)
+
+      
+
+      
+      
+     
+
+
+        // setTimeout(function(){
+        //     document.querySelector(".divided-wrapper").innerHTML = "DIVIDED"
+        //     document.querySelector(".divided-wrapper").style ="opacity: 1";
+
+        // }, 6000)
 
 
 
