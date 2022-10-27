@@ -1,0 +1,55 @@
+* {
+    padding: 0px;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+@font-face {
+    font-family: 'Digital';
+    src: local('Digital'), url('digital-7\ \(mono\).ttf');
+  }
+
+.countdown{
+    color: rgb(0, 255, 0);
+    font-size: 100px;
+    text-transform: capitalize;
+    font-family: 'Digital';
+    display: none;
+}
+
+.bcd-wrapper{
+    display: flex;
+    gap: 20px;
+}
+
+.b{
+    opacity: 0;
+}
+
+.c{
+    opacity: 0;
+}
+
+.big-wrapper{
+    display: flex;
+}
+.cocks-wrapper{
+    display: flex;
+}
+.divided-wrapper{
+    display: flex;
+}
+
+
+.bcd{
+    font-size: 100px;
+    color: rgb(0, 255, 0);
+}
