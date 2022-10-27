@@ -1,6 +1,6 @@
-var countDownDate = new Date("Oct 29, 2022, 21:45:00").getTime();
+var countDownDate = new Date("Oct 27, 2022, 21:17:55").getTime();
 
-var x = setInterval(function(){
+var x = setInterval(async function(){
 
 
     var now = new Date().getTime();
@@ -16,8 +16,41 @@ var x = setInterval(function(){
 
     if (distance < 0) {
         clearInterval(x);
-        document.querySelector(".countdown").innerHTML = "BCD"
-        
+        document.querySelector(".countdown").style = "display: none"
+
+        setTimeout(function(){
+            document.querySelector(".big-wrapper").style = "opacity: 1"
+
+        }, 1000)
+
+        setTimeout(function(){
+            document.querySelector(".cocks-wrapper").style = "opacity: 1"
+
+        }, 2000)
+
+        setTimeout(function(){
+            document.querySelector(".divided-wrapper").style = "opacity: 1"
+
+        }, 3000)
+
+        setTimeout(function(){
+            document.querySelector(".divided-wrapper").style.textDecoration = "line-through ";
+            document.querySelector(".divided-wrapper").style.textDecorationColor ="#00ff00";
+
+        }, 4000)
+
+        setTimeout(function(){
+            document.querySelector(".divided-wrapper").style ="opacity: 0";
+
+        }, 5000)
+
+        setTimeout(function(){
+            document.querySelector(".divided-wrapper").innerHTML = "DIVIDED"
+            document.querySelector(".divided-wrapper").style ="opacity: 1";
+
+        }, 6000)
+
+
 
     }
 }, 1000);

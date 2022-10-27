@@ -22,28 +22,84 @@ body{
     font-size: 100px;
     text-transform: capitalize;
     font-family: 'Digital';
+    display: flex;
+
 }
 
 .bcd-wrapper{
-    display: none;
+    display: flex;
     gap: 20px;
 }
 
-.b{
+
+/* .b{
     opacity: 0;
 }
 
 .c{
     opacity: 0;
 }
+.d{
+    opacity: 0;
+}
+
+.e{
+    opacity: 0;
+}
+.f{
+    opacity: 0;
+}
+
+.g{
+    opacity: 0;
+}
+.h{
+    opacity: 0;
+}
+
+.i{
+    opacity: 0;
+}
+.j{
+    opacity: 0;
+}
+.k{
+    opacity: 0;
+}
+.l{
+    opacity: 0;
+}
+
+.m{
+    opacity: 0;
+} */
+
 
 .big-wrapper{
+    display: flex;
+    opacity: 0;
+    text-decoration-color: #00ff00;
+    color: rgb(0, 255, 0);
+    font-size: 100px;
+    text-transform: capitalize;
     display: flex;
 }
 .cocks-wrapper{
     display: flex;
+    opacity: 0;
+    text-decoration-color: #00ff00;
+    color: rgb(0, 255, 0);
+    font-size: 100px;
+    text-transform: capitalize;
+    display: flex;
 }
 .divided-wrapper{
+    display: flex;
+    opacity: 0;
+    text-decoration-color: #00ff00;
+    color: rgb(0, 255, 0);
+    font-size: 100px;
+    text-transform: capitalize;
     display: flex;
 }
 
