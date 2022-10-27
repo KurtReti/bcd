@@ -26,8 +26,22 @@ body{
 
 }
 
+.fist{
+    position: absolute;
+    opacity: 0;
+
+    -webkit-transition: all 1s ease-in-out;
+-moz-transition: all 1s ease-in-out;
+-o-transition: all 1s ease-in-out;
+-ms-transition: all 1s ease-in-out;
+transition: all 1s ease-in-out;
+}
+}
+
 .bcd-wrapper{
     display: none;
+    position: relative;
+    z-index: 10;
     gap: 20px;
     width: 900px;
 
@@ -99,6 +113,7 @@ transition: all 1s ease-in-out;
 }
 .cocks-wrapper{
     display: flex;
+    padding-left: 30px;
     opacity: 0;
     text-decoration-color: #00ff00;
     color: rgb(0, 255, 0);
@@ -114,6 +129,7 @@ transition: all 1s ease-in-out;
 }
 .divided-wrapper{
     display: flex;
+    padding-left: 30px;
     opacity: 0;
     text-decoration-color: #00ff00;
     color: rgb(0, 255, 0);

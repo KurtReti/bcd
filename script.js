@@ -63,7 +63,13 @@ function BCD(){
         document.querySelector(".big-wrapper").style.color = "red"
         document.querySelector(".cocks-wrapper").style.color = "red"
 
+
     }, 13000)
+
+    setTimeout(function(){
+        document.querySelector(".fist").style = "opacity: 0.2"
+
+    }, 14000)
 
 
 
