@@ -27,8 +27,14 @@ body{
 }
 
 .bcd-wrapper{
-    display: flex;
+    display: none;
     gap: 20px;
+
+    -webkit-transition: all 1s ease-in-out;
+-moz-transition: all 1s ease-in-out;
+-o-transition: all 1s ease-in-out;
+-ms-transition: all 1s ease-in-out;
+transition: all 1s ease-in-out;
 }
 
 
@@ -83,6 +89,12 @@ body{
     font-size: 100px;
     text-transform: capitalize;
     display: flex;
+
+    -webkit-transition: all 1s ease-in-out;
+-moz-transition: all 1s ease-in-out;
+-o-transition: all 1s ease-in-out;
+-ms-transition: all 1s ease-in-out;
+transition: all 1s ease-in-out;
 }
 .cocks-wrapper{
     display: flex;
@@ -92,6 +104,12 @@ body{
     font-size: 100px;
     text-transform: capitalize;
     display: flex;
+
+    -webkit-transition: all 1s ease-in-out;
+-moz-transition: all 1s ease-in-out;
+-o-transition: all 1s ease-in-out;
+-ms-transition: all 1s ease-in-out;
+transition: all 1s ease-in-out;
 }
 .divided-wrapper{
     display: flex;
@@ -101,6 +119,12 @@ body{
     font-size: 100px;
     text-transform: capitalize;
     display: flex;
+
+    -webkit-transition: all 1s ease-in-out;
+-moz-transition: all 1s ease-in-out;
+-o-transition: all 1s ease-in-out;
+-ms-transition: all 1s ease-in-out;
+transition: all 1s ease-in-out;
 }
 
 
