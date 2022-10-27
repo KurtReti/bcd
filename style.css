@@ -22,11 +22,10 @@ body{
     font-size: 100px;
     text-transform: capitalize;
     font-family: 'Digital';
-    display: none;
 }
 
 .bcd-wrapper{
-    display: flex;
+    display: none;
     gap: 20px;
 }
 
