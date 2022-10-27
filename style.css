@@ -29,6 +29,7 @@ body{
 .bcd-wrapper{
     display: none;
     gap: 20px;
+    width: 900px;
 
     -webkit-transition: all 1s ease-in-out;
 -moz-transition: all 1s ease-in-out;
