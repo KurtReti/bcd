@@ -19,7 +19,6 @@ function BCD(){
 
     }, 3000)
 
-
     setTimeout(function(){
         document.querySelector(".divided-wrapper").style = "opacity: 1"
 
@@ -62,14 +61,12 @@ function BCD(){
         document.querySelector(".divided-wrapper").style.color = "red"
         document.querySelector(".big-wrapper").style.color = "red"
         document.querySelector(".cocks-wrapper").style.color = "red"
+        document.querySelector(".fist").style = "opacity: 0.2"
 
 
     }, 13000)
 
-    setTimeout(function(){
-        document.querySelector(".fist").style = "opacity: 0.2"
 
-    }, 14000)
 
 
 
