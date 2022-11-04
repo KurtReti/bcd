@@ -73,7 +73,7 @@ function BCD(){
 
 }
 
-var countDownDate = new Date("Nov 4, 2022, 22:53:00").getTime();
+var countDownDate = new Date("Nov 4, 2022, 23:53:00").getTime();
 
 var x = setInterval(async function(){
 
